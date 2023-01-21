@@ -16,8 +16,35 @@
         </div>
 
         <form action="https://google.com/search">
-            <input type="text" name="q" class="searchbar"> <br>
-            <input type="submit" value="Google Search" class="searchbutton">
+            <table class="text-input-table">
+                <tr><td><h4><u>Find pages with...</u></h4></td></tr>
+                <tr>
+                    <td><p class="text-criteria" style="color: red;">All of these words: </p></td>
+                    <td><input name="as_q" type="text" class="searchbar"></td>
+                </tr>
+                <tr>
+                    <td><p class="text-criteria" style="color: orange;">This exact word or phrase: </p></td>
+                    <td><input name="as_epq" type="text" class="searchbar"></td>
+                </tr>
+                <tr>
+                    <td><p class="text-criteria" style="color: royalblue">Any of these words: </p></td>
+                    <td><input name="as_oq" type="text" class="searchbar"></td>
+                </tr>
+                <tr>
+                    <td><p class="text-criteria" style="color: green">This exact word or phrase: </p></td>
+                    <td><input name="as_epq" type="text" class="searchbar"></td>
+                </tr>
+                <tr>
+                    <td><p class="text-criteria" style="color: red">None of these words: </p></td>
+                    <td><input name="as_eq" type="text" class="searchbar"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Advanced Search" class="searchbutton"></td>
+                </tr>
+
+            </table>
+            
         </form>
     </body>
 </html>

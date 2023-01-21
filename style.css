@@ -80,6 +80,7 @@ a {
     text-align: left;
   }
 
+ 
   .searchbutton {
     background-color: #F8F9FA;
     border-style: none;
@@ -91,4 +92,20 @@ a {
 
   .searchbutton:hover {
     background-color: lightblue;
+  }
+
+  .text-input-table {
+    margin: 15px 45px;
+  }
+
+  .text-criteria {
+    text-align: right;
+    color: whitesmoke;
+  }
+
+  h4 {
+    text-align: center;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
   }
